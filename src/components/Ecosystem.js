@@ -5,6 +5,7 @@ import Konglomerate from '../assets/images/konglomerate.png';
 import NewsAgents from '../assets/images/news-agents.png';
 import StakeIsland from '../assets/images/stake-island.png';
 import SwapStreet from '../assets/images/swap-street.png';
+import SportsPrediction from '../assets/images/sports-prediction.png';
 
 const Ecosystem = () => {
 
@@ -18,6 +19,7 @@ const Ecosystem = () => {
                 <img src={NewsAgents} alt="newsagents" className="eco-name news-agent" />
                 <img src={StakeIsland} alt="stakeisland" className="eco-name stake-island" />
                 <img src={SwapStreet} alt="swapstreet" className="eco-name swap-street" />
+                <img src={SportsPrediction} alt="sportsprediction" className="eco-name sports-prediction" />
             </div>
         </div>  
     );

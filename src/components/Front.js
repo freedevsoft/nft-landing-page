@@ -1,5 +1,8 @@
 import React from 'react';
 import FrontKong from '../assets/images/front-kong.jpg';
+import twitter from '../assets/images/twitter.png';
+import discord from '../assets/images/discord.png';
+import reddit from '../assets/images/reddit.png';
 
 const Front = () => {
 
@@ -14,7 +17,17 @@ const Front = () => {
             <div className="top-left-rect"></div>
         </div>
         <div className="main-rect">
-            <div className="sub-title"><span>Dexentric DAO</span></div>
+            <div className="sub-title d-flex gap-4 justify-content-end align-item-center">
+                <a>
+                    <img className="contact-img-small" src={twitter} alt="twitter" />
+                </a>
+                <a>
+                    <img className="contact-img-small" src={discord} alt="discord" />
+                </a>
+                <a>
+                    <img className="contact-img-small" src={reddit} alt="reddit" />
+                </a>
+            </div>
             <div className="front-title"><span>the</span> <span>kong</span><span>loMer</span><span>ate</span></div>
             <div className="intro-panel">
                 <img src={FrontKong} alt="kong" />
